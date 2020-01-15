@@ -1,0 +1,106 @@
+x,y = [1,3]
+x,y = [1,3]
+x
+1
+y
+3
+z
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+<ipython-input-4-3a710d2a84f8> in <module>
+----> 1 z
+
+NameError: name 'z' is not defined
+
+type(5)
+int
+type(-8)
+int
+type(8.33)
+float
+type(sqrt8)
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+<ipython-input-8-291467b0f9f3> in <module>
+----> 1 type(sqrt8)
+
+NameError: name 'sqrt8' is not defined
+
+y=17
+print(y + " rupees")
+---------------------------------------------------------------------------
+TypeError                                 Traceback (most recent call last)
+<ipython-input-10-309dbf2815ac> in <module>
+----> 1 print(y + " rupees")
+
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+
+print (str(y) + "rupees")
+17rupees
+print("'red', 'car'")
+'red', 'car'
+print("red", "car")
+red car
+3,5,8,"hut"
+​
+(3, 5, 8, 'hut')
+1+2
+3
+15/8
+1.875
+x= 4**2
+x
+16
+x==16
+True
+x==25
+False
+54*2 / \
+12
+9.0
+"SAQUIB"
+'SAQUIB'
+"saquib"[4]
+'i'
+if 10 == 1000/100:
+    print("awesome!")
+awesome!
+x = 17
+if x > 20:
+    print ("case saquib")
+else:
+    print("case stupid")
+case stupid
+def practice(y):
+    if y>17:
+        return ("greater")
+    elif y<17:
+        return("less")
+    elif y < 0:
+        return("negative")
+    else:
+        return("equal")
+print(practice (17))
+equal
+def practice(y):
+    if y>17:
+        return "greater"
+   
+    elif y < 0:
+        return"negative"
+    elif y<17:
+        return"less"
+    else:
+        return"equal"
+def practice(y):
+    if y>17:
+        return "greater"
+   
+    elif y < 0:
+        return"negative"
+    elif y<17:
+        return"less"
+    else:
+        return"equal"
+print(practice (-20))
+negative
